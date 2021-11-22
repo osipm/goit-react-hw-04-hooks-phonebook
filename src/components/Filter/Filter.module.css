@@ -1,0 +1,7 @@
+.label {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  grid-gap: 10px;
+  gap: 10px;
+}
