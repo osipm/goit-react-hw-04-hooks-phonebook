@@ -30,8 +30,6 @@ export default function ContactForm({ onSubmit }) {
     e.preventDefault();
     const name = e.target.name.value;
     const number = e.target.number.value;
-    console.log(name);
-    console.log(number);
     onSubmit(name, number);
     reset();
   };
